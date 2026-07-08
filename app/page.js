@@ -693,15 +693,6 @@ function ProjectModal({ project, onClose }) {
     setActiveVideo(0)
   }, [project])
 
-  useEffect(() => {
-    if (!videoRef.current) return
-    try {
-      videoRef.current.load()
-      const p = videoRef.current.play()
-      if (p && typeof p.then === 'function') p.catch(() => {})
-    } catch {}
-  }, [activeVideo, project])
-
   if (!project) return null
   const videos = project.videos && project.videos.length > 0 ? project.videos : []
   const currentSrc = videos[activeVideo] || null
@@ -730,6 +721,7 @@ function ProjectModal({ project, onClose }) {
               controls
               autoPlay
               playsInline
+              preload="metadata"
               className="w-full h-full object-contain"
             />
           ) : (
