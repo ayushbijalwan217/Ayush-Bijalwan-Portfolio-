@@ -1085,20 +1085,12 @@ function Resume() {
                   className="w-full h-auto object-contain transition-transform duration-700 group-hover:scale-[1.02]"
                 />
               </div>
-              <div className="absolute top-6 right-6 glass px-3 py-1.5 rounded-full text-[10px] tracking-[0.3em] text-white/80">CV · 2025</div>
+              
             </motion.div>
           </TextReveal>
 
           <TextReveal delay={0.1} className="lg:col-span-2 space-y-6">
-            <div className="glass rounded-2xl p-6">
-              <div className="text-xs tracking-widest text-[#00D9FF] mb-3">SNAPSHOT</div>
-              <ul className="space-y-3 text-white/80">
-                <li className="flex items-start gap-3"><span className="text-[#00D9FF] mt-1.5">◆</span> Creative &amp; detail-oriented Video Editor</li>
-                <li className="flex items-start gap-3"><span className="text-[#00D9FF] mt-1.5">◆</span> Freelance since 2025 — reels, montages, promos</li>
-                <li className="flex items-start gap-3"><span className="text-[#00D9FF] mt-1.5">◆</span> Skilled in Premiere Pro, After Effects, Photoshop</li>
-                <li className="flex items-start gap-3"><span className="text-[#00D9FF] mt-1.5">◆</span> B.Voc in VFX Film Making — currently pursuing</li>
-              </ul>
-            </div>
+
             <a
               href={CV_URL}
               download="Ayush-Bijalwan-CV.png"
