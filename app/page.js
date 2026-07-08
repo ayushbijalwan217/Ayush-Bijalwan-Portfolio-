@@ -706,7 +706,13 @@ function ProjectModal({ project, onClose }) {
         <h2 className="text-4xl md:text-6xl font-bold tracking-tighter mb-8">{project.title}</h2>
 
         {/* Main video player */}
-        <div className="relative aspect-video rounded-2xl overflow-hidden mb-6 bg-black">
+        <div
+  className={`relative rounded-2xl overflow-hidden mb-6 bg-black flex justify-center ${
+    project.aspectRatio === "9:16"
+      ? "aspect-[9/16] max-w-[420px] mx-auto"
+      : "aspect-video"
+  }`}
+>
           {currentSrc ? (
             <video
               key={currentSrc}
@@ -715,9 +721,9 @@ function ProjectModal({ project, onClose }) {
               poster={project.img}
               controls
               autoPlay
-              playsInline
+              playsInline 
               preload="metadata"
-              className="w-full h-full object-contain"
+              className="w-full h-full object-cover"
             />
           ) : (
             <div className="relative w-full h-full">
