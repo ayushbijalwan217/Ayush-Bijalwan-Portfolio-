@@ -1279,7 +1279,6 @@ const App = () => {
       <AnimatePresence>{loading && <LoadingScreen onDone={() => setLoading(false)} />}</AnimatePresence>
       {!loading && (
         <>
-      {/* <CustomCursor /> */}
           <ScrollProgress />
           <Nav activeSection={activeSection} />
           <main className="relative">
