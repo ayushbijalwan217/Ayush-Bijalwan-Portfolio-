@@ -52,6 +52,7 @@ const PROJECTS = [
     role: 'Editor / Colorist', client: 'Personal', duration: '3 weeks',
     workflow: 'Ingest -> Assembly -> Rough Cut -> Sound Design -> Color -> Delivery',
     img: 'https://images.unsplash.com/photo-1627637819794-fba32f82be16?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0',
+    aspectRatio: '9:16',
     videos: [
       '/videos/cinematic-travel-edit.mp4',
       'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
@@ -75,6 +76,7 @@ const PROJECTS = [
     role: 'Editor', client: 'Creator', duration: '1 week',
     workflow: 'Style Frames -> Edit -> Sound -> Master',
     img: 'https://images.unsplash.com/photo-1678986718987-76f0b9357e0f?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0',
+    aspectRatio: '16:9',
     videos: [
       'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4',
     ],
@@ -86,6 +88,7 @@ const PROJECTS = [
     role: 'Editor', client: 'D2C Brand', duration: '3 weeks',
     workflow: 'Assembly -> Edit -> Color -> Sound -> Master',
     img: 'https://images.unsplash.com/photo-1652992252915-f9b6592a61a3?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0',
+    aspectRatio: '9:16',
     videos: [
       '/videos/Product-Advertisement-edit.mp4',
       'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/VolkswagenGTIReview.mp4',
@@ -110,6 +113,7 @@ const PROJECTS = [
     role: 'Editor', client: 'Creators / Brands', duration: 'Ongoing',
     workflow: 'Hook -> Cut -> Sound -> Captions -> Master',
     img: 'https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0',
+    aspectRatio: '9:16',
     videos: [
       '/videos/Great-Wall-Of-China-Edit.mp4',
       '/videos/shaan-reel-video-final-to.mp4',
