@@ -1238,29 +1238,58 @@ const App = () => {
   const [activeSection, setActiveSection] = useState('home')
 
   useEffect(() => {
-    if (loading) return
-    const lenis = new Lenis({ duration: 1.2, easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)), smoothWheel: true })
-    function raf(time) { lenis.raf(time); requestAnimationFrame(raf) }
-    requestAnimationFrame(raf)
-    return () => lenis.destroy()
-  }, [loading])
+  if (loading) return
+
+  const lenis = new Lenis({
+    duration: 0.8,
+    smoothWheel: true,
+    wheelMultiplier: 1,
+  })
+
+  let rafId
+
+  function raf(time) {
+    lenis.raf(time)
+    rafId = requestAnimationFrame(raf)
+  }
+
+  rafId = requestAnimationFrame(raf)
+
+  return () => {
+    cancelAnimationFrame(rafId)
+    lenis.destroy()
+  }
+}, [loading])
 
   useEffect(() => {
-    if (loading) return
-    const sections = NAV.map(n => document.getElementById(n.id)).filter(Boolean)
-    const obs = new IntersectionObserver((entries) => {
-      entries.forEach(e => { if (e.isIntersecting) setActiveSection(e.target.id) })
-    }, { rootMargin: '-40% 0px -40% 0px' })
-    sections.forEach(s => obs.observe(s))
-    return () => obs.disconnect()
-  }, [loading])
+  if (loading) return
+
+  const sections = NAV.map(n => document.getElementById(n.id)).filter(Boolean)
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          setActiveSection(entry.target.id)
+        }
+      })
+    },
+    {
+      threshold: 0.5,
+    }
+  )
+
+  sections.forEach(section => observer.observe(section))
+
+  return () => observer.disconnect()
+}, [loading])
 
   return (
     <>
       <AnimatePresence>{loading && <LoadingScreen onDone={() => setLoading(false)} />}</AnimatePresence>
       {!loading && (
         <>
-          <CustomCursor />
+      {/* <CustomCursor /> */}
           <ScrollProgress />
           <Nav activeSection={activeSection} />
           <main className="relative">
