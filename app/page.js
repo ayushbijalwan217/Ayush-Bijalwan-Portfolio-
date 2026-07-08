@@ -343,21 +343,29 @@ const BehanceIcon = ({ className = '' }) => (
 
 function SocialIcons() {
   const list = [
-    { Icon: Linkedin, href: '#', label: 'LinkedIn' },
-    { Icon: Instagram, href: '#', label: 'Instagram' },
-    { Icon: BehanceIcon, href: '#', label: 'Behance' },
-    { Icon: Mail, href: '#contact', label: 'Email' },
+    { Icon: Linkedin, href: 'https://www.linkedin.com/in/ayush-bijalwan-62a2a7328/', label: 'LinkedIn' },
+    { Icon: Instagram, href: 'https://www.instagram.com/ayushh.217?igsh=MW54cTZ0djQyYXhiNA%3D%3D&utm_source=qr', label: 'Instagram' },
+    { Icon: BehanceIcon, href: 'https://www.behance.net/ayushbijalwan4', label: 'Behance' },
+    { Icon: Mail, href: 'mailto:ayushbijalwan217@gmail.com', label: 'Email' },
   ]
   return (
-    <div className="flex flex-row gap-3">
-      {list.map(({ Icon, href, label }, i) => (
-        <motion.a key={i} href={href} data-hover aria-label={label} whileHover={{ y: -4, scale: 1.05 }}
-          className="w-11 h-11 rounded-full glass flex items-center justify-center text-white/70 hover:text-[#00D9FF] hover:border-[#00D9FF]/50 transition-colors">
-          <Icon className="w-4 h-4" />
-        </motion.a>
-      ))}
-    </div>
-  )
+  <div className="flex flex-row gap-3">
+    {list.map(({ Icon, href, label }, i) => (
+      <motion.a
+        key={i}
+        href={href}
+        target="_blank"
+        rel="noopener noreferrer"
+        data-hover
+        aria-label={label}
+        whileHover={{ y: -4, scale: 1.05 }}
+        className="w-11 h-11 rounded-full glass flex items-center justify-center text-white/70 hover:text-[#00D9FF] hover:border-[#00D9FF]/50 transition-colors"
+      >
+        <Icon className="w-4 h-4" />
+      </motion.a>
+    ))}
+  </div>
+)
 }
 
 function AnimatedCounter({ target, suffix = '' }) {
