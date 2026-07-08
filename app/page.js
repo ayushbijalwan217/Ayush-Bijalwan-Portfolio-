@@ -806,7 +806,6 @@ function Projects({ onOpen }) {
             <div className="text-xs tracking-[0.4em] text-[#00D9FF] mb-3">04 - FEATURED WORK</div>
             <h2 className="text-5xl md:text-7xl font-bold tracking-tighter">Selected <span className="text-gradient">projects.</span></h2>
           </div>
-          <p className="text-white/60 max-w-md">A curated selection of my video edits - crafted for clients and creators across the globe.</p>
         </TextReveal>
 
         <TextReveal className="mb-10">
