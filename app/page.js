@@ -1085,7 +1085,7 @@ function Resume() {
                   className="w-full h-auto object-contain transition-transform duration-700 group-hover:scale-[1.02]"
                 />
               </div>
-              
+
             </motion.div>
           </TextReveal>
 
@@ -1224,7 +1224,7 @@ function Footer() {
         </div>
         <div className="mt-10 pt-8 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-white/40">
           <div>&copy; Ayush Bijalwan. All rights reserved.</div>
-          <div>Designed with <span className="text-[#00D9FF]">passion</span> by AYUSH BIJALWAN</div>
+          <div>by AYUSH BIJALWAN</div>
         </div>
       </div>
     </footer>
