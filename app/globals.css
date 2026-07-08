@@ -63,18 +63,18 @@
   }
 
   .glass {
-    background: rgba(21, 21, 21, 0.5);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    border: 1px solid rgba(255, 255, 255, 0.08);
-  }
+  background: rgba(21, 21, 21, 0.45);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
 
   .glass-strong {
-    background: rgba(10, 10, 10, 0.7);
-    backdrop-filter: blur(24px);
-    -webkit-backdrop-filter: blur(24px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-  }
+  background: rgba(10, 10, 10, 0.65);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
 
   .grid-bg {
     background-image:
@@ -84,12 +84,12 @@
   }
 
   .glow-blue {
-    box-shadow: 0 0 40px rgba(0, 217, 255, 0.4), 0 0 80px rgba(0, 217, 255, 0.15);
-  }
+  box-shadow: 0 0 20px rgba(0, 217, 255, 0.25);
+}
 
-  .glow-purple {
-    box-shadow: 0 0 40px rgba(122, 92, 255, 0.35);
-  }
+.glow-purple {
+  box-shadow: 0 0 20px rgba(122, 92, 255, 0.25);
+}
 
   .noise {
     position: relative;
@@ -117,7 +117,7 @@
     0%, 100% { transform: translateY(0px); }
     50% { transform: translateY(-20px); }
   }
-  .float { animation: float 6s ease-in-out infinite; }
+  .float { animation: float 12s ease-in-out infinite; }
 
   @keyframes pulse-glow {
     0%, 100% { box-shadow: 0 0 30px rgba(0,217,255,0.4); }
