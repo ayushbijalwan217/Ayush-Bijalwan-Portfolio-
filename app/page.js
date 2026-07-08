@@ -53,7 +53,7 @@ const PROJECTS = [
     workflow: 'Ingest -> Assembly -> Rough Cut -> Sound Design -> Color -> Delivery',
     img: 'https://images.unsplash.com/photo-1627637819794-fba32f82be16?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0',
     videos: [
-      'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4',
+      '/videos/cinematic-travel-edit.mp4',
       'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
     ],
   },
@@ -65,7 +65,7 @@ const PROJECTS = [
     workflow: 'Concept -> Sync -> FX -> Grade -> Sound -> Master',
     img: 'https://images.unsplash.com/photo-1601315488950-3b5047998b38?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0',
     videos: [
-      'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
+      '/videos/montage-last-final-3.mp4',
     ],
   },
   {
@@ -87,7 +87,7 @@ const PROJECTS = [
     workflow: 'Assembly -> Edit -> Color -> Sound -> Master',
     img: 'https://images.unsplash.com/photo-1652992252915-f9b6592a61a3?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0',
     videos: [
-      'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4',
+      '/videos/Product-Advertisement-edit.mp4',
       'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/VolkswagenGTIReview.mp4',
       'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WhatCarCanYouGetForAGrand.mp4',
     ],
@@ -111,7 +111,7 @@ const PROJECTS = [
     workflow: 'Hook -> Cut -> Sound -> Captions -> Master',
     img: 'https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0',
     videos: [
-      'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4',
+      '/videos/Great-Wall-Of-China-Edit.mp4',
       'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4',
     ],
   },
