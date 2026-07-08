@@ -328,9 +328,9 @@ function Particles() {
 function GradientBlobs() {
   return (
     <div className="absolute inset-0 overflow-hidden pointer-events-none">
-      <div className="absolute -top-40 -left-40 w-[500px] h-[500px] rounded-full bg-[#00D9FF] blur-[140px] opacity-20 float" />
-      <div className="absolute top-1/2 -right-32 w-[400px] h-[400px] rounded-full bg-[#7A5CFF] blur-[140px] opacity-25 float" style={{ animationDelay: '2s' }} />
-      <div className="absolute bottom-0 left-1/3 w-[350px] h-[350px] rounded-full bg-[#00D9FF] blur-[120px] opacity-10 float" style={{ animationDelay: '4s' }} />
+      <div className="absolute -top-40 -left-40 w-[500px] h-[500px] rounded-full bg-[#00D9FF] blur-[60px] opacity-20 float" />
+      <div className="absolute top-1/2 -right-32 w-[400px] h-[400px] rounded-full bg-[#7A5CFF] blur-[60px] opacity-25 float" style={{ animationDelay: '2s' }} />
+      <div className="absolute bottom-0 left-1/3 w-[350px] h-[350px] rounded-full bg-[#00D9FF] blur-[60px] opacity-10 float" style={{ animationDelay: '4s' }} />
     </div>
   )
 }
