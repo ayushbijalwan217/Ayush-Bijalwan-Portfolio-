@@ -41,7 +41,8 @@
   ::-webkit-scrollbar-thumb { background: #222; border-radius: 4px; }
   ::-webkit-scrollbar-thumb:hover { background: #00D9FF; }
 
-  @media (min-width: 768px) {
+  /* Hide default cursor on desktop for custom cursor */
+    @media (min-width: 768px) {
   body {
     cursor: auto;
   }
