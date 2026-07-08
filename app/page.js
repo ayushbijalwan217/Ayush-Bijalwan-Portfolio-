@@ -112,7 +112,7 @@ const PROJECTS = [
     img: 'https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0',
     videos: [
       '/videos/Great-Wall-Of-China-Edit.mp4',
-      'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4',
+      '/videos/shaan-reel-video-final-to.mp4',
     ],
   },
 ]
