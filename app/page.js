@@ -51,7 +51,7 @@ const PROJECTS = [
     desc: 'A soul-stirring travel edit crafted in the Himalayas with cinematic pacing and grade.',
     role: 'Editor / Colorist', client: 'Personal', duration: '3 weeks',
     workflow: 'Ingest -> Assembly -> Rough Cut -> Sound Design -> Color -> Delivery',
-    img: 'https://images.unsplash.com/photo-1627637819794-fba32f82be16?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0',
+    img: '/thumbnails/cinematic2.png',
     aspectRatio: '9:16',
     videos: [
       '/videos/cinematic-travel-edit.mp4',
@@ -64,7 +64,7 @@ const PROJECTS = [
     desc: 'High-energy gaming montage with kinetic transitions and glitch effects.',
     role: 'Editor', client: 'Esports Team', duration: '2 weeks',
     workflow: 'Concept -> Sync -> FX -> Grade -> Sound -> Master',
-    img: 'https://images.unsplash.com/photo-1601315488950-3b5047998b38?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0',
+    img: '/thumbnails/gaming2.png',
     videos: [
       '/videos/montage-last-final-3.mp4',
     ],
@@ -75,7 +75,7 @@ const PROJECTS = [
     desc: 'Signature intro sequence with kinetic type, seamless transitions and sound design.',
     role: 'Editor', client: 'Creator', duration: '1 week',
     workflow: 'Style Frames -> Edit -> Sound -> Master',
-    img: 'https://images.unsplash.com/photo-1678986718987-76f0b9357e0f?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0',
+    img: '/thumbnails/intro.png',
     aspectRatio: '16:9',
     videos: [
       'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4',
@@ -87,7 +87,7 @@ const PROJECTS = [
     desc: 'Cinematic product spot with studio-grade color, macro detail and punchy sound.',
     role: 'Editor', client: 'D2C Brand', duration: '3 weeks',
     workflow: 'Assembly -> Edit -> Color -> Sound -> Master',
-    img: 'https://images.unsplash.com/photo-1652992252915-f9b6592a61a3?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0',
+    img: '/thumbnails/product2.png',
     aspectRatio: '9:16',
     videos: [
       '/videos/Product-Advertisement-edit.mp4',
@@ -101,7 +101,7 @@ const PROJECTS = [
     desc: 'Beat-synced anime edit with stylized effects and cinematic color.',
     role: 'Editor', client: 'Community', duration: '1 week',
     workflow: 'Selects -> Beat Sync -> FX -> Color -> Master',
-    img: 'https://images.unsplash.com/photo-1637140945341-f28ada987326?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0',
+    img: '/thumbnails/anime2.png',
     videos: [
       'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4',
     ],
@@ -112,7 +112,7 @@ const PROJECTS = [
     desc: 'Fast-paced, hook-driven vertical edits engineered for Reels, Shorts and TikTok virality.',
     role: 'Editor', client: 'Creators / Brands', duration: 'Ongoing',
     workflow: 'Hook -> Cut -> Sound -> Captions -> Master',
-    img: 'https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0',
+    img: '/thumbnails/reel2.png',
     aspectRatio: '9:16',
     videos: [
       '/videos/Great-Wall-Of-China-Edit.mp4',
