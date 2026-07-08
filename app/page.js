@@ -1054,7 +1054,7 @@ function Experience() {
 }
 
 function Resume() {
-  const CV_URL = '/ayush-bijalwan-cv.png'
+  const CV_URL = '/Ayush Bijalwan CV.png'
   return (
     <section id="resume" className="relative py-32 overflow-hidden">
       <div className="relative mx-auto max-w-7xl px-6 md:px-10">
