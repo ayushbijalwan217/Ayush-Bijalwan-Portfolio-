@@ -43,19 +43,15 @@
 
   /* Hide default cursor on desktop for custom cursor */
     @media (min-width: 768px) {
-  body {
-    cursor: auto;
-  }
+      body { cursor: none; }
+      a, button, [role="button"], input, textarea, select { cursor: none; }
+    }
 
-  a,
-  button,
-  [role="button"],
-  input,
-  textarea,
-  select {
-    cursor: pointer;
+    ::selection {
+      background: #00D9FF;
+      color: #0A0A0A;
+    }
   }
-}
 
 @layer utilities {
   .text-gradient {
