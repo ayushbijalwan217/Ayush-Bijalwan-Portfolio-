@@ -1279,9 +1279,13 @@ const App = () => {
             <Projects onOpen={setOpenProject} />
             <Showreel />
             <Process />
-            <Contact />
-            <Footer />
-          </main>
+
+           {/* Resume Section */}
+           <Resume />
+
+             <Contact />
+             <Footer />
+             </main>
           <AnimatePresence>
             {openProject && <ProjectModal project={openProject} onClose={() => setOpenProject(null)} />}
           </AnimatePresence>
