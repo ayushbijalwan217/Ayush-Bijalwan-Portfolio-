@@ -766,25 +766,7 @@ function ProjectModal({ project, onClose }) {
             </div>
           </div>
         )}
-
-        <div className="grid md:grid-cols-3 gap-6 mb-10">
-          {[{ l: 'Client', v: project.client }, { l: 'Role', v: project.role }, { l: 'Duration', v: project.duration }].map((x, i) => (
-            <div key={i} className="glass rounded-2xl p-5">
-              <div className="text-xs tracking-widest text-white/40 mb-1">{x.l.toUpperCase()}</div>
-              <div className="text-lg font-medium">{x.v}</div>
-            </div>
-          ))}
-        </div>
-        <div className="grid md:grid-cols-2 gap-10 mb-10">
-          <div>
-            <div className="text-xs tracking-widest text-[#00D9FF] mb-3">OVERVIEW</div>
-            <p className="text-lg text-white/80 leading-relaxed">{project.desc}</p>
-          </div>
-          <div>
-            <div className="text-xs tracking-widest text-[#00D9FF] mb-3">WORKFLOW</div>
-            <p className="text-lg text-white/80 leading-relaxed">{project.workflow}</p>
-          </div>
-        </div>
+        
         <div className="mb-4">
           <div className="text-xs tracking-widest text-[#00D9FF] mb-3">SOFTWARE USED</div>
           <div className="flex flex-wrap gap-2">
