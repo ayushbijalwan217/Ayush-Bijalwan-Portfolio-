@@ -116,8 +116,9 @@ const PROJECTS = [
     aspectRatio: '9:16',
     videos: [
       '/videos/Great-Wall-Of-China-Edit.mp4',
-      '/videos/shaan-reel-video-final-to.mp4',
+      '/videos/mrbeast-reel.mp4',
       '/videos/trend-reel.mp4',
+      '/videos/shaan-reel-video-final-to.mp4'
     ],
   },
 ]
