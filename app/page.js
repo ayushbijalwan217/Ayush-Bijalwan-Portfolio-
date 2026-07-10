@@ -47,7 +47,7 @@ const SERVICES = []
 const PROJECTS = [
   {
     title: 'Cinematic Travel Edit', category: 'Video Editing',
-    software: ['Premiere Pro', 'After Effects', 'Photoshop'],
+    software: ['Premiere Pro', 'After Effects'],
     desc: 'A soul-stirring travel edit crafted in the Himalayas with cinematic pacing and grade.',
     role: 'Editor / Colorist', client: 'Personal', duration: '3 weeks',
     workflow: 'Ingest -> Assembly -> Rough Cut -> Sound Design -> Color -> Delivery',
@@ -83,7 +83,7 @@ const PROJECTS = [
   },
   {
     title: 'Product Advertisement', category: 'Video Editing',
-    software: ['Premiere Pro', 'After Effects'],
+    software: ['Google Flow', 'Premiere Pro'],
     desc: 'Cinematic product spot with studio-grade color, macro detail and punchy sound.',
     role: 'Editor', client: 'D2C Brand', duration: '3 weeks',
     workflow: 'Assembly -> Edit -> Color -> Sound -> Master',
@@ -108,7 +108,7 @@ const PROJECTS = [
   },
   {
     title: 'Reel Edits', category: 'Video Editing',
-    software: ['Premiere Pro', 'After Effects', 'CapCut'],
+    software: ['Premiere Pro', 'After Effects'],
     desc: 'Fast-paced, hook-driven vertical edits engineered for Reels, Shorts and TikTok virality.',
     role: 'Editor', client: 'Creators / Brands', duration: 'Ongoing',
     workflow: 'Hook -> Cut -> Sound -> Captions -> Master',
@@ -766,7 +766,7 @@ function ProjectModal({ project, onClose }) {
             </div>
           </div>
         )}
-        
+
         <div className="mb-4">
           <div className="text-xs tracking-widest text-[#00D9FF] mb-3">SOFTWARE USED</div>
           <div className="flex flex-wrap gap-2">
