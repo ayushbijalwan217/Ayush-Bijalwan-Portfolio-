@@ -716,23 +716,31 @@ function ProjectModal({ project, onClose }) {
   }`}
 >
           {currentSrc ? (
-            <video
-              key={currentSrc}
-              ref={videoRef}
-              src={currentSrc}
-              poster={project.img}
-              controls
-              autoPlay
-              playsInline 
-              preload="metadata"
-              className="w-full h-full object-cover"
-            />
-          ) : (
-            <div className="relative w-full h-full">
-              <img src={project.img} alt={project.title} className="w-full h-full object-cover" />
-              <div className="absolute inset-0 bg-black/50 flex items-center justify-center text-white/60 text-sm">Video coming soon</div>
-            </div>
-          )}
+  <video
+    key={currentSrc}
+    ref={videoRef}
+    src={currentSrc}
+    poster={project.img}
+    controls
+    controlsList="nodownload noplaybackrate noremoteplayback"
+    onContextMenu={(e) => e.preventDefault()}
+    autoPlay
+    playsInline
+    preload="metadata"
+    className="w-full h-full object-cover"
+  />
+) : (
+  <div className="relative w-full h-full">
+    <img
+      src={project.img}
+      alt={project.title}
+      className="w-full h-full object-cover"
+    />
+    <div className="absolute inset-0 bg-black/50 flex items-center justify-center text-white/60 text-sm">
+      Video coming soon
+    </div>
+  </div>
+)}
         </div>
 
         {/* Thumbnails for multiple videos */}
@@ -866,6 +874,8 @@ function Showreel() {
               src={SHOWREEL_VIDEO}
               poster={SHOWREEL_POSTER}
               controls={playing}
+              controlsList="nodownload noplaybackrate noremoteplayback"
+              onContextMenu={(e) => e.preventDefault()}
               playsInline
               preload="metadata"
               className="w-full h-full object-cover bg-black"
