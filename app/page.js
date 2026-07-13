@@ -117,6 +117,7 @@ const PROJECTS = [
     videos: [
       '/videos/Great-Wall-Of-China-Edit.mp4',
       '/videos/mrbeast-reel.mp4',
+      '/videos/Work-edit.mp4',
       '/videos/trend-reel.mp4',
       '/videos/shaan-reel-video-final-to.mp4'
     ],
