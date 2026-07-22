@@ -96,17 +96,6 @@ const PROJECTS = [
     ],
   },
   {
-    title: 'Anime Edit', category: 'Video Editing',
-    software: ['Premiere Pro', 'After Effects'],
-    desc: 'Beat-synced anime edit with stylized effects and cinematic color.',
-    role: 'Editor', client: 'Community', duration: '1 week',
-    workflow: 'Selects -> Beat Sync -> FX -> Color -> Master',
-    img: '/thumbnails/anime2.png',
-    videos: [
-      'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4',
-    ],
-  },
-  {
     title: 'Reel Edits', category: 'Video Editing',
     software: ['Premiere Pro', 'After Effects'],
     desc: 'Fast-paced, hook-driven vertical edits engineered for Reels, Shorts and TikTok virality.',
