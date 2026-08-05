@@ -70,15 +70,16 @@ const PROJECTS = [
     ],
   },
   {
-    title: 'Cinematic Intro Edit', category: 'Video Editing',
-    software: ['After Effects', 'Premiere Pro'],
+    title: 'AI Video Edits', category: 'AI Video Generation',
+    software: ['Claude', 'ChatGPT', 'FLOW', 'Premiere Pro'],
     desc: 'Signature intro sequence with kinetic type, seamless transitions and sound design.',
     role: 'Editor', client: 'Creator', duration: '1 week',
     workflow: 'Style Frames -> Edit -> Sound -> Master',
     img: '/thumbnails/intro.png',
     aspectRatio: '16:9',
     videos: [
-      'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4',
+      '/videos/upscale-ai-ads.mp4',
+      '/videos/JaiShriRamAI.mp4',
     ],
   },
   {
