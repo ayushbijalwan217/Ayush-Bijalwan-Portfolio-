@@ -75,7 +75,7 @@ const PROJECTS = [
     desc: 'Signature intro sequence with kinetic type, seamless transitions and sound design.',
     role: 'Editor', client: 'Creator', duration: '1 week',
     workflow: 'Style Frames -> Edit -> Sound -> Master',
-    img: '/thumbnails/intro.png',
+    img: '/thumbnails/ai.png',
     aspectRatio: '16:9',
     videos: [
       '/videos/upscale-ai-ads.mp4',
