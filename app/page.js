@@ -105,6 +105,7 @@ const PROJECTS = [
     img: '/thumbnails/reel2.png',
     aspectRatio: '9:16',
     videos: [
+      '/videos/shortcuts-edit.mp4',
       '/videos/Great-Wall-Of-China-Edit.mp4',
       '/videos/mrbeast-reel.mp4',
       '/videos/Work-edit.mp4',
