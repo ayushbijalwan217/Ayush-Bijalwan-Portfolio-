@@ -76,7 +76,7 @@ const PROJECTS = [
     role: 'Editor', client: 'Creator', duration: '1 week',
     workflow: 'Style Frames -> Edit -> Sound -> Master',
     img: '/thumbnails/ai.png',
-    aspectRatio: '16:9',
+    aspectRatio: '9:16',
     videos: [
       '/videos/upscale-ai-ads.mp4',
       '/videos/JaiShriRamAI.mp4',
