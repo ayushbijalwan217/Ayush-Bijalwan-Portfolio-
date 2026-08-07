@@ -1282,7 +1282,6 @@ const App = () => {
             <About />
             <Skills />
             <Projects onOpen={setOpenProject} />
-            <Showreel />
             <Process />
 
            {/* Resume Section */}
