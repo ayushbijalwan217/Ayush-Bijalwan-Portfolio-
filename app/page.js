@@ -442,7 +442,7 @@ function Hero() {
           <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 1.2, delay: 1.4, ease: [0.22, 1, 0.36, 1] }} className="relative">
             <div className="relative aspect-square w-80 sm:w-96 md:w-[420px] lg:w-full lg:max-w-[480px] rounded-full overflow-hidden noise ring-1 ring-white/10 shadow-2xl shadow-[#00D9FF]/10">
               <div className="absolute inset-0 bg-gradient-to-tr from-[#00D9FF]/20 via-transparent to-[#7A5CFF]/20 z-10 pointer-events-none" />
-              <img src="/profile.jpeg" alt="Ayush Bijalwan" className="w-full h-full object-cover object-center" />
+              <img src="/profile.png" alt="Ayush Bijalwan" className="w-full h-full object-cover object-center" />
               <div className="absolute inset-0 ring-1 ring-white/10 rounded-full z-20 pointer-events-none" />
             </div>
           </motion.div>
