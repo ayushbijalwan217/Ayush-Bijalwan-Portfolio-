@@ -481,19 +481,21 @@ function About() {
               </p>
             </TextReveal>
 
-            <div className="grid grid-cols-2 gap-4">
-              {[
-                { n: 1.5, s: '+', l: 'Years Experience' },
-                { n: 6, s: '', l: 'Software' },
-              ].map((s, i) => (
-                <TextReveal key={i} delay={0.15 + i * 0.08}>
-                  <div className="glass rounded-2xl p-6 hover:border-[#00D9FF]/50 transition-colors group">
-                    <div className="text-4xl md:text-5xl font-bold text-gradient-blue mb-1"><AnimatedCounter target={s.n} suffix={s.s} /></div>
-                    <div className="text-sm text-white/60">{s.l}</div>
-                  </div>
-                </TextReveal>
-              ))}
-            </div>
+            <div className="grid grid-cols-2 gap-4"> 
+  {[ 
+    { n: 1.5, s: '+', l: 'Years Experience' }, 
+    { n: 6, s: '', l: 'Software' }, 
+  ].map((s, i) => ( 
+    <TextReveal key={i} delay={0.15 + i * 0.08}> 
+      <div className="glass rounded-2xl p-6 hover:border-[#00D9FF]/50 transition-colors group"> 
+        <div className="text-4xl md:text-5xl font-bold text-gradient-blue mb-1">
+          {s.n}{s.s}
+        </div> 
+        <div className="text-sm text-white/60">{s.l}</div> 
+      </div> 
+    </TextReveal> 
+  ))} 
+</div>
           </div>
         </div>
       </div>
