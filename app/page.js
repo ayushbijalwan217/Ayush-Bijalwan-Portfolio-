@@ -79,6 +79,7 @@ const PROJECTS = [
     aspectRatio: '9:16',
     videos: [
       '/videos/upscale-ai-ads.mp4',
+      '/videos/upscaleugcad.mp4'
       '/videos/JaiShriRamAI.mp4',
     ],
   },
