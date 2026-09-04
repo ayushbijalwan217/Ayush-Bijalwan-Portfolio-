@@ -484,7 +484,7 @@ function About() {
 
             <div className="grid grid-cols-2 gap-4"> 
   {[ 
-    { n: 1.5, s: '+', l: 'Years Experience' }, 
+    { n: 1, s: '+', l: 'Year Experience' }, 
     { n: 6, s: '', l: 'Software' }, 
   ].map((s, i) => ( 
     <TextReveal key={i} delay={0.15 + i * 0.08}> 
