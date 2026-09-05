@@ -102,7 +102,7 @@ const PROJECTS = [
     role: 'Editor',
     workflow: 'Assembly -> Edit -> Color -> Sound -> Master',
     img: '/thumbnails/product2.png',
-    aspectRatio: '9:16',
+    aspectRatio: '16:9','9:16',
     videos: [
       '/videos/Applestylemotiongraphics.mp4',
       '/videos/shortcuts-edit.mp4',
