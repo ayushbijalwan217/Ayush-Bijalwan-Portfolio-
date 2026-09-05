@@ -98,7 +98,7 @@ const PROJECTS = [
   {
    title: 'Motion Graphic', category: 'Video Editing',
     software: ['After Effect', 'Premiere Pro'],
-    desc: 'Cinematic product spot with studio-grade color, macro detail and punchy sound.',
+    desc: 'Dynamic motion graphics with clean animation, smooth transitions and engaging visual design.',
     role: 'Editor',
     workflow: 'Assembly -> Edit -> Color -> Sound -> Master',
     img: '/thumbnails/product2.png',
